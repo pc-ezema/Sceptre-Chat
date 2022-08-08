@@ -46,14 +46,8 @@
 		<header class="header-top">
 			
             <div class="menu clearfix">
-                <a href="#about-us">about</a>
+                <!-- <a href="#about-us">about</a> -->
 				
-                <!--<div class="menu-cont">
-					<p class="text">Menu cont</p>
-					<ul class="sub-menu">
-						<li><a href="htp://page">My Page</a></li>
-					</ul>
-				</div>-->
 				<!-- Add other menu similar to "about" here -->
                 <a href="#contact">contact</a>
             </div>
@@ -78,11 +72,11 @@
 					</a>
 					<span class="title">Stay in touch</span>
 				</li>
-				<li data-menuanchor="about-us">
+				<!-- <li data-menuanchor="about-us">
 					<a href="#about-us"><i class="icon ion ion-android-information"></i>
 					</a>
 					<span class="title">About Us</span>
-				</li>
+				</li> -->
 				<!--<li data-menuanchor="contact">
 					<a href="#contact"><i class="icon ion ion-android-call"></i>
 					</a>
@@ -105,7 +99,7 @@
             <!-- <div class="cover-bg pos-abs full-size bg-img" data-image-src="{{URL::asset('assets/img/bg-default.jpg')}}"></div> -->
 						
 			<!-- Solid color as background -->
-           <div class="cover-bg pos-abs full-size bg-color" data-bgcolor="rgb(59, 59, 59)"></div>
+           <div class="cover-bg pos-abs full-size bg-color" data-bgcolor="#fff"></div>
 			
 			<!-- Solid color as filter -->
             <!-- <div class="cover-bg-mask pos-abs full-size bg-color" data-bgcolor="rgba(0, 0, 0, 0.41)"></div> -->
@@ -151,11 +145,6 @@
             
 			<!-- Begin of home page -->
 			<div class="section page-home page page-cent" id="s-home">
-				
-				<!-- Logo -->
-				<!-- <div class="logo-container">
-					<img class="h-logo" src="{{URL::asset('assets/img/logo.png')}}" alt="Logo">
-				</div> -->
 				<!-- Content -->
 				<section class="content">
 					
@@ -166,11 +155,8 @@
 						</div>
 					</header>
 				</section>
-				
 			</div>
 			<!-- End of home page -->
-            
-           
             
             <!-- Begin of register page -->
             <div class="section page-register page page-cent"  id="s-register">
@@ -207,10 +193,10 @@
                         </h3>
 						<h4 class="subhead">We <span class="bold">make</span> only <span class="bold">beautiful</span> things</h4>
                     </header>
-                    <article class="text">
+                    <!-- <article class="text">
                         <p>Lorem ipsum <strong>magicum </strong>dolor sit amet, consectetur adipiscing elit. Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
                         <p>Aenean ultricies odio at erat facilisis tincidunt. Fusce tempor auctor justo, nec facilisis quam vehicula vel. Aenean non mattis purus, eget lobortis odio. </p>
-                    </article>
+                    </article> -->
                 </section>
             </div>
             <!-- End of about us page -->
@@ -225,9 +211,9 @@
 								</i>
 							</h3>
 							<ul class="buttons">
-								<li class="show-for-medium-up">
+								<!-- <li class="show-for-medium-up">
 									<a title="About" href="#about-us" ><i class="ion ion-android-information"></i></a>
-								</li>
+								</li> -->
 								<li>
 									<a title="Contact" href="#contact/information"><i class="ion ion-location"></i></a>
 								</li>
@@ -240,15 +226,11 @@
 									<ul>
 										<li>
 											<h4>Email</h4>
-											<p><a href="mailto:">[Email]</a></p>
-										</li>
-										<li>
-											<h4>Address</h4>
-											<p>[Address]</p>
+											<p><a href="mailto:support@sceptrechat.com">support@sceptrechat.com</a></p>
 										</li>
 										<li>
 											<h4>Phone</h4>
-											<p>[Phone Number]</p>
+											<p>09058498188</p>
 										</li>
 									</ul>
 								</div>
@@ -258,17 +240,15 @@
 										<!-- legal notice -->
 										<li class="show-for-medium-up">
 											<h4>Website</h4>
-											<p><a href="">[Website]</a></p>
+											<p><a href="https://www.sceptrechat.com/">https://www.sceptrechat.com/</a></p>
 										</li>
 										<li  class="show-for-medium-up">
 											<h4>Find us on</h4>
 											<!-- Begin of Social links -->
 											<div class="socialnet">
-												<a href="#"><i class="ion ion-social-facebook"></i></a>
-												<a href="#"><i class="ion ion-social-instagram"></i></a>
-												<a href="#"><i class="ion ion-social-twitter"></i></a>
-												<a href="#"><i class="ion ion-social-pinterest"></i></a>
-												<a href="#"><i class="ion ion-social-tumblr"></i></a>
+												<!-- <a href="#"><i class="ion ion-social-facebook"></i></a> -->
+												<a href="https://www.instagram.com/sceptrechat"><i class="ion ion-social-instagram"></i></a>
+												<a href="https://twitter.com/sceptrechat"><i class="ion ion-social-twitter"></i></a>
 											</div>
 											<!-- End of Social links -->
 										</li>
@@ -290,9 +270,9 @@
 								</i>
 							</h3>
 							<ul class="buttons">
-								<li class="show-for-medium-up">
+								<!-- <li class="show-for-medium-up">
 									<a title="About" href="#about-us"><i class="ion ion-android-information"></i></a>
-								</li>
+								</li> -->
 								<li>
 									<a title="Contact" href="#contact/information"><i class="ion ion-location"></i></a>
 								</li>

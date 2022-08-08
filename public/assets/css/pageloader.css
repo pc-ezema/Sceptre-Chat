@@ -17,7 +17,7 @@ html file
     height: 100%;
     top:0;
     left:0;
-    background: #333333;
+    background: #fff;
     display: block;  
     
 }
@@ -44,7 +44,7 @@ html file
         top:50%;
         width: 100%;
         text-align: center;
-        color: #fff;
+        color: #fd9857;
         margin-top: -1rem;
         font-size: 4rem;
     }

@@ -36,22 +36,22 @@ http://themeforest.net/licenses
 **/
 /*---------- 
 [Colors]
-    text color : #FFFFFF, #FFF
+    text color : #fd9857, #fd9857
     blue : #5677FC
-    transluscent white : rgba(255, 255, 255, 0.15) / #fff;
+    transluscent white : rgba(255, 255, 255, 0.15) / #fd9857;
 */
 
 /* 0. Base Style  */
 /* initialization */
 html {
-    color: #fff;
+    color: #fd9857;
     font-size: 1em;
     line-height: 1.4;
 	background: #626262;
 }
 
 ::-moz-selection {
-    background: #fff;
+    background: #fd9857;
     text-shadow: none;
 }
 
@@ -87,7 +87,7 @@ textarea {
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
-    color: #000;
+    color: #fd9857;
     padding: 0.2em 0;
 }
 
@@ -96,7 +96,7 @@ body, html, h1, h2, h3, h4, h5, h6, a, ul, li{
 }
 body{
     font-family: 'OpenSans';
-    background: #fff;
+    background: #fd9857;
     
     margin: 0;
     padding: 0;
@@ -280,7 +280,7 @@ ul, li{
 .title.bg-white,
 .bg-white,
 .mask-white:before{    
-    background: #fff;
+    background: #fd9857;
 }
 .title.bg-black,
 .bg-black,
@@ -327,7 +327,7 @@ ul, li{
 .title.bg-black,
 .bg-black,
 .mask-black:before{    
-    background: #000;
+    background: #fd9857;
 }
 .title.bg-black1,
 .bg-black1,
@@ -341,7 +341,7 @@ ul, li{
 }
 
 .text-white{
-    color: #fff;   
+    color: #fd9857;   
 }
 .text-black{
     color: #333333;   
@@ -470,7 +470,7 @@ strong,
 /*		display: inline-block;*/
 		display: block;
 		float: left;
-		background: #fff;
+		background: #fd9857;
 		color: #5677fc;
 		text-transform: capitalize;
 		text-align: center;
@@ -485,7 +485,7 @@ strong,
 		background: transparent;
 		font-weight: normal;
 /*		font-weight: bold;*/
-		color: #fff;
+		color: #fd9857;
 		position: relative;
 	}
 	.header-top.material .menu a:first-child:after{
@@ -500,7 +500,7 @@ strong,
 		top: 25%;
 		height: 50%;
 		width: 1px;
-		background: #fff;
+		background: #fd9857;
 		content: "";
 	}
 
@@ -509,7 +509,7 @@ strong,
 	}
 	.header-top .menu a:hover{
 		background: rgba(255, 255, 255, 0.15);
-		color: #fff;
+		color: #fd9857;
 	}
  
 /* 2. Dot navigation at right */
@@ -519,14 +519,14 @@ strong,
 	position: absolute;
 }
 #fp-nav span, .fp-slidesNav span{
-    border-color: #fff;
+    border-color: #fd9857;
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
 	width: 10px;
 	height: 10px;
 }
 #fp-nav ul li a span{
-	background: #fff;
+	background: #fd9857;
 }
 #fp-nav li, .fp-slidesNav li {
     display: block;
@@ -550,7 +550,7 @@ strong,
 		transition: 0.3s;
 	}
 #fp-nav li .active span, .fp-slidesNav .active span{
-    background: #fff;
+    background: #fd9857;
 	position: absolute;
 }
 	#fp-nav li .active span:after, 
@@ -570,7 +570,7 @@ strong,
 	-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
 	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
 	z-index: 100;
-	background: rgba(0, 0, 0, 0.26);
+	background: #000;
 }
 .quick-link .logo{
 	width: 56px;
@@ -625,7 +625,7 @@ strong,
 	}
 /* 3.2 Links */
 .quick-link a{
-/*	background: #fff;*/
+/*	background: #fd9857;*/
 /*	background: rgba(255, 255, 255, 0.15);*/
 	height: 48px;
 	width: 56px;
@@ -633,12 +633,13 @@ strong,
 	text-align: center;
 	font-size: 22px;
 	padding-top: 0.4rem;
-	color: #fff;
+	color: #fd9857;
 	opacity: 1;
 	position: relative;
 	z-index: 1;
 	-webkit-transition: 0.2s;
 	transition: 0.2s;
+	background: #fff;
 }
 .quick-link a:hover{
 /*		opacity: 0.5;*/
@@ -670,7 +671,7 @@ strong,
 	width: 50%;
 	left: 25%;
 	bottom: 0;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #fd9857;
 }
 .quick-link li:last-child:before{
 	border-bottom: none;
@@ -688,7 +689,7 @@ strong,
 	background: rgba(230, 230, 230, 0.12);
 }
 .quick-link a.marked{
-	color: #fff;
+	color: #fd9857;
 	background: #5677fc;
 }
 	.quick-link .title{
@@ -696,19 +697,19 @@ strong,
 		font-size: 12px;
 		left: 64px;
 		top: 17px;
-		color: #fff;
+		color: #fd9857;
 		font-family: "Opensans";
 		text-transform: uppercase;
 		text-align: left;
 		width: 100px;
-		border-bottom: 1px solid currentColor;
+		border-bottom: 1px solid #fd9857;
 		display: block;
 		transform: translateX(10px);
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
 		visibility: hidden;
 		opacity: 0;
-		text-shadow: 0 0 10px #000;
+		text-shadow: 0 0 10px #fd9857;
 	}
 	.quick-link li:hover .title{
 		-webkit-transform: none;
@@ -725,7 +726,7 @@ strong,
 	bottom: 8px;
 	left: 56px;
 	margin-left: 9px;
-	color: #fff;
+	color: #fd9857;
 	font-size:18px;
 	font-family: 'Opensans';
 	font-weight: normal;
@@ -734,7 +735,7 @@ strong,
 /*	margin-left: 8px;*/
 }
 .page-footer a{
-	color: #fff;
+	color: #fd9857;
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
 	float: left;
@@ -744,7 +745,7 @@ strong,
 	width: 32px;
 	height: 32px;
 	text-align: center;
-	background: #fff;
+	background: #fd9857;
 	color: #1d1d1d;
 }
 .page-footer a .ion{
@@ -809,7 +810,7 @@ strong,
 .p-footer .icon{
 	position: absolute;
 	top: 24px;
-	color: #fff;
+	color: #fd9857;
 	text-align: center;
 	width: 24px;
 	margin-left: -12px;
@@ -837,17 +838,17 @@ strong,
     bottom: 32px;
 	margin: 0;
 	display: block;
-	border: 0px solid #fff;
+	border: 0px solid #fd9857;
 	border-radius: 100%;
     margin-left: -24px;   
 	transition: 0.3s;
 	font-family: "Opensans";
-	color: #fff;
+	color: #fd9857;
 	font-size: 14px;
 }
 	.p-footer .arrow-d:hover{
 		background: #5677fc;
-		background: #fff;
+		background: #fd9857;
 	}
 	.p-footer .arrow-d.gone{
 		-webkit-transform: scale(0);   
@@ -866,8 +867,8 @@ strong,
 		line-height: 0;
 		margin-top: -2px;
 		font-family: "Ionicons";
-		color: #fff;
-/*		background: #fff;*/
+		color: #fd9857;
+/*		background: #fd9857;*/
 		border-radius: 100%;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
@@ -880,7 +881,7 @@ strong,
 		right: 12px;
 		position: absolute;
 		content: "";
-		background: #fff;
+		background: #fd9857;
 		border-radius: 100%;
 		-webkit-transition: 0.3s ;
 		transition: 0.3s ;
@@ -1025,7 +1026,7 @@ strong,
     transition: 0.6s;
 	text-align: left;
     font-family: 'Opensans';
-	color: #fff;
+	color: #fd9857;
 }
 
 .page-cent .p-title{
@@ -1038,7 +1039,7 @@ strong,
     padding-left: 0px;
     text-align: left;
     display: inline-block;
-	color: #fff;
+	color: #fd9857;
     font-family: 'Opensans';
 	font-weight: bold;
 	border-bottom: 8px solid #5677fc;
@@ -1051,7 +1052,7 @@ strong,
 	margin-top: 0.3em;
 	margin-bottom: 0.3em;
     display: block;
-	color: #fff;
+	color: #fd9857;
     font-family: 'Opensans';
 }
 
@@ -1064,12 +1065,12 @@ strong,
 }
 .page-cent .text{	
     font-family: 'Opensans';
-	color: #fff;
+	color: #fd9857;
 	text-align: left;
 }
 .page p{    
     font-family: 'Opensans';
-    color: #ffffff;
+    color: #fd9857;
     font-size: 16px;
     margin-bottom: 0.75rem;
 }
@@ -1089,7 +1090,7 @@ strong,
 .page h4{
 	text-transform: uppercase;
 	font-weight: bold;
-    color: #ffffff;
+    color: #fd9857;
     font-size: 20px;
 	margin-bottom: 0;
 	margin-top: 0;
@@ -1099,7 +1100,7 @@ strong,
 .page h3,
 .page h4{
     font-family: 'Opensans';
-    color: #ffffff;
+    color: #fd9857;
 }
 
 /* 6.2 Page and slide animation */
@@ -1204,7 +1205,7 @@ strong,
 	font-size: 32px;
 	line-height: 1em;
 	font-weight: bold;
-	border-left: 4px solid currentColor;
+	border-left: 4px solid #fd9857;
 	padding-left: 10px;
 	margin-left: 6px;
 	max-width: 180px;
@@ -1220,20 +1221,20 @@ strong,
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
 /*	width: 300px;*/
-/*	border-top: 1px solid currentColor;*/
+/*	border-top: 1px solid #fd9857;*/
 }
 .page .content .subhead:before{
 	position: absolute;
 	content: '';
 	height: 1px;
 	width: 32px;
-	background: currentColor;
+	background: #fd9857;
 	left: 0px;
 	top: 14px;
 }
 	
 .page .content .subhead:hover{
-	color: #fff;
+	color: #fd9857;
 }
 
 .page .content .subhead a{
@@ -1254,7 +1255,7 @@ strong,
 	right: 0;
 	height: 50%;
 	width: 1px;
-	border-left: 1px solid #fff; 
+	border-left: 1px solid #fd9857; 
 }
 /* Logo */
 .pane-when .logo{
@@ -1305,7 +1306,7 @@ strong,
     margin-top: 0.5em;
     display: block;
     text-transform: uppercase;
-    color: #fff;
+    color: #fd9857;
 	text-align: center;
 }
 .pane-when .clock .block:last-child .digit:after{
@@ -1327,7 +1328,7 @@ strong,
 	line-height: 1;
     font-family: 'Opensans';
 	font-weight: 500;
-    color: #fff;
+    color: #fd9857;
     display: block;
 	width: auto;
 }
@@ -1357,7 +1358,7 @@ strong,
     font-family: 'Opensans';
 	font-weight: bold;
 	font-size: 24px;
-	color: #fff;
+	color: #fd9857;
 	text-align: center;
 }
 
@@ -1368,7 +1369,7 @@ strong,
 .pane-when .clock .elem-bottom:before{
 	position: absolute;
 	content: '';
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #fd9857;
 	height: 1px;
 	bottom: 17px;
 }
@@ -1384,8 +1385,8 @@ strong,
 .pane-when .clock .elem-bottom .deco:before{
 	position: absolute;
 	content: '';
-/*	background: #fff;*/
-	border: 1px solid #fff;
+/*	background: #fd9857;*/
+	border: 1px solid #fd9857;
 	width: 20px;
 	height: 120px;
 	bottom: 17px;
@@ -1407,7 +1408,7 @@ strong,
 	margin-top: 32px;
 }
 .pane-when footer p{
-	color: #fff;
+	color: #fd9857;
 	text-align: center;
     font-family: 'Opensans';
 }
@@ -1429,7 +1430,7 @@ strong,
     background: transparent;
 /*    background: #f4f;*/
     border: none;
-    color: #fff;
+    color: #fd9857;
     padding: 0em 1em;
 	padding-bottom: 0.3em;
     font-family: 'Opensans';
@@ -1465,7 +1466,7 @@ strong,
     font-family: 'Opensans';
 	font-weight: bold;
     font-size: 20px;
-    color: #fff;
+    color: #fd9857;
 	text-transform: uppercase;
     display: inline-block;
 	margin-bottom: 0.35em;
@@ -1489,7 +1490,7 @@ strong,
 }
 .page .form button{ 
     background: #5677fc;
-    color: #fff;
+    color: #fd9857;
     font-family: 'Opensans';
 	font-weight: bold;
     font-size: 20px;
@@ -1509,7 +1510,7 @@ strong,
 	right: 50%;
 	bottom: 50%;
 	content: "";
-	background: #fff;
+	background: #fd9857;
 	opacity: 0;
 	border-radius: 120px;
 	-webkit-transition: 0.3s;
@@ -1528,8 +1529,8 @@ strong,
 	color: #5677fc;
 }
 .page .form textarea{ 
-    background: #fff;
-    border: 1px solid currentColor;
+    background: #fd9857;
+    border: 1px solid #fd9857;
     color: #626262;
     padding: 0.5em 1em;
     min-width: 200px;    
@@ -1627,7 +1628,7 @@ strong,
 	width: auto;
 }
 .page-contact a{
-    color: #fff;
+    color: #fd9857;
 }
 .page-contact .right{
 	text-align: right;
@@ -1639,7 +1640,7 @@ strong,
 		margin-right: -10px;
 	}
     .page-contact .socialnet a{
-        color: #fff;
+        color: #fd9857;
 		font-size: 24px;
         margin-bottom:  0.25rem;
         display: inline-block;
@@ -1665,7 +1666,7 @@ strong,
     .page-contact .socialnet a:hover:after{
         border-radius: 0;
         background: rgba(255, 255, 255, 0.15); 
-        color: #fff;       
+        color: #fd9857;       
     }
 /* Form */
 
